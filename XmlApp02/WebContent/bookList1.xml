@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookList1>
+
+	<bookInfo bid="1">
+		<title>자바의 정석</title>
+		<author>남궁성</author>
+		<publisher>도우출판</publisher>
+		<date>2016년 01월 27일</date>
+		<price>30000</price>
+		<chapter>
+			<sub>1 자바를 시작하기 전에</sub>
+			<sub>2 변수(Variable)</sub>
+			<sub>3 연산자</sub>
+			<sub>4 조건문과 반복문</sub>
+			<sub>5 배열(Array)</sub>
+			<sub><![CDATA[6 객체지향 프로그래밍 I]]></sub>
+			<sub><![CDATA[7 객체지향 프로그래밍 II]]></sub>
+			<sub><![CDATA[8 예외처리(Exception Handling)]]></sub>
+			<sub>9 java.lang패키지와 유용한 클래스</sub>
+			<sub><![CDATA[10 날짜와 시간 & 형식화]]></sub>
+			<sub>11 컬렉션 프레임웍</sub>
+			<sub>12 지네릭스, 열거형, 애너테이션</sub>
+			<sub><![CDATA[13 쓰레드(Thread)]]></sub>
+			<sub>14 람다와 스트림</sub>
+			<sub><![CDATA[15 입출력(I/O)]]></sub>
+			<sub><![CDATA[16 네트워킹(Networking)]]></sub>
+		</chapter>
+		
+	</bookInfo>
+	
+	<bookInfo bid="2">
+		<title><![CDATA[다양한 예제로 쉽게 배우는 오라클 SQL과 PL/SQL]]></title>
+		<author>신진수</author>
+		<publisher>생능출판</publisher>
+		<date>2017년 09월 08일</date>
+		<price>32000</price>
+		<chapter>
+			<sub>1장 SELECT 명령을 이용하여 데이터를 조회합니다</sub>
+			<sub>2장 SQL 단일행 함수를 배웁니다</sub>
+			<sub><![CDATA[3장 SQL 복수행 함수(그룹 함수)를 배웁니다]]></sub>
+			<sub>4장 JOIN을 배웁니다</sub>
+			<sub>5장 DDL 명령과 딕셔너리를 배웁니다</sub>
+			<sub>6장 DML로 데이터를 관리하는 방법을 배웁니다</sub>
+			<sub><![CDATA[7장 Constraint(제약조건)를 배웁니다]]></sub>
+			<sub><![CDATA[8장 INDEX(인덱스)를 배웁니다]]></sub>
+			<sub><![CDATA[9장 VIEW(뷰)를 배웁니다]]></sub>
+			<sub><![CDATA[10장 Sub Query(서브 쿼리)를 배웁니다]]></sub>
+			<sub><![CDATA[11장 SEQUENCE(시퀀스)와 SYNONYM(동의어)를 배웁니다]]></sub>
+			<sub><![CDATA[12장 계층형 쿼리(Hierarchical Query)를 배웁니다]]></sub>
+			<sub>13장 오라클 계정 관리 방법을 배웁니다</sub>
+			<sub>14장 12c SQL에 추가된 새로운 기능</sub>
+			<sub><![CDATA[15장 Oracle PL/SQL에 입문합니다]]></sub>
+		</chapter>
+	</bookInfo>
+	
+	<bookInfo bid="3">
+		<title><![CDATA[최범균의 JSP 2.3 웹 프로그래밍: 기초부터 중급까지]]></title>
+		<author>최범균</author>
+		<publisher>가메</publisher>
+		<date>2015년 11월 16일</date>
+		<price>27000</price>
+		<part>01 웹 프로그래밍 기초</part>
+		<chapter>
+			<sub>01 들어가기</sub>
+			<sub>02 웹 프로그래밍 기초</sub>
+			<sub>03 JSP로 시작하는 웹 프로그래밍</sub>
+			<sub>04 필수 이해 요소</sub>
+			<sub>05 필수 습득</sub>
+			<sub>06 에러 처리</sub>
+			<sub>07 페이지 모듈화와 요청 흐름 제어</sub>
+			<sub>08 자바빈과 액션 태그</sub>
+			<sub><![CDATA[09 클라이언트와의 대화 1 : 쿠키]]></sub>
+			<sub><![CDATA[10 클라이언트와의 대화 2 : 세션]]></sub>
+			<sub><![CDATA[11 표현 언어(Expression Language)]]></sub>
+			<sub><![CDATA[12 표준 태그 라이브러리(JSTL)]]></sub>
+		</chapter>
+	
+	</bookInfo>
+	
+	
+	
+</bookList1>

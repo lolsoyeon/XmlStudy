@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE compactDiscs
+[
+<!ELEMENT compactDiscs (compactDisc+)>
+<!ELEMENT compactDisc (artist, title, tracks, price)>
+<!ELEMENT artist (#PCDATA)>
+<!ATTLIST artist type (individule | band) #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title numberOfTracks CDATA #REQUIRED>
+<!ELEMENT tracks (track+)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT track (#PCDATA)>
+]>
+<compactDiscs>
+	<compactDisc>
+		<artist type="individule">Michael Buble</artist>
+		<title numberOfTracks ="1">Christmas</title>
+		<tracks>
+			<track>It's Beginning to Look a Lot like Christmas</track>
+			<track>Santa Claus Is Coming to Town</track>
+			<track><![CDATA[Jingle Bells (feat. The Puppini Sisters)]]></track>
+			<track><![CDATA[White Christmas (with Shania Twain)]]></track>
+			<track>All I Want for Christmas Is You</track>
+			<track>Holly Jolly Christmas</track>
+		</tracks>
+		<price>25800</price>
+	</compactDisc>
+	<compactDisc>
+		<artist type="band">NewJeans</artist>
+		<title numberOfTracks ="2">
+		</title>
+		<tracks>
+			<track>Attention</track>
+			<track>Hype boy</track>
+			<track>Cookie</track>
+			<track>Hurt</track>
+			<track>inst</track>
+		</tracks>
+		<price>22800</price>
+	</compactDisc>
+	<compactDisc>
+		<artist type="individule">아이유</artist>
+		<title numberOfTracks ="3"><![CDATA[IU 5th Album 'LILAC']]></title>
+		<tracks>
+			<track>라일락</track>
+			<track>Flu</track>
+			<track>Coin</track>
+			<track>봄 안녕 봄</track>
+			<track>Celebrity</track>
+		</tracks>
+		<price>22800</price>
+	</compactDisc>
+</compactDiscs>
+
+<!-- 위 DTD 내용을 토대로 XML 문서를 완성한다 -->
+<!-- 데이터는 자신이 좋아하는 가수의 곡 정보를 5곡이상 등록한다. -->
