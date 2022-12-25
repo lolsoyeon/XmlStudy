@@ -34,6 +34,8 @@ package com.test;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
+import org.w3c.dom.Document;
+
 public class XmlDomTest04
 {
 	public static void main(String[] args)
@@ -42,6 +44,9 @@ public class XmlDomTest04
 		{
 			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder builder = factory.newDocumentBuilder();
+			Document xmlObj = null;
+			
+			
 			
 		} catch (Exception e)
 		{

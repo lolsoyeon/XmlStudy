@@ -37,14 +37,11 @@ public class XmlDomTest3_1
 {
 	public static void main(String[] args)
 	{
-		// 4. 텍스트 노드(속성 노드) 접근 → 데이터 획득
-		// 5. 결과 출력
 		try
 		{
 			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder builder = factory.newDocumentBuilder();
 			Document xmlObj = null;
-			
 			
 			// 1. XML 파일을 메모리에 로드 → XML DOM 형성
 			String url = "breakfast_menu.xml";
@@ -55,17 +52,19 @@ public class XmlDomTest3_1
 //			System.out.println(root.getNodeName());
 			//--==>> breakfast_menu
 
+			// 3. 특정 하위 엘리먼트 접근 → 위치, 이름 등을 기준으로 접근
 			NodeList breakNodeList = root.getElementsByTagName("food");
 			// System.out.println(breakNodeList.getLength());
 			//--==>> 5
 
-			// 3. 특정 하위 엘리먼트 접근 → 위치, 이름 등을 기준으로 접근
 			for (int i = 0; i < breakNodeList.getLength(); i++)
 			{
+				// 4. 텍스트 노드(속성 노드) 접근 → 데이터 획득
 				Node breakNode = breakNodeList.item(i);
 				
 				Element breakElement = (Element) breakNode;
 				
+				// 5. 결과 출력
 				System.out.printf("■ [%s]  %s  %s칼로리%n  - %s%n"
 						, getText(breakElement, "name")
 						, getText(breakElement, "price")

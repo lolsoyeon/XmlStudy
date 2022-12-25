@@ -36,6 +36,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
+import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 public class XmlDomTest4_1
@@ -73,6 +74,11 @@ public class XmlDomTest4_1
 	private static String getText(Element parent, String tagName)
 	{
 		String result = "";
+		
+		// 특정 태그의 첫 번째 자식노드를 읽어온다.
+		Node node = parent.getElementsByTagName(tagName).item(0);
+		
+		Element element = (Element)node;
 		
 		
 		return result;
