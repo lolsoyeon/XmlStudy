@@ -1,0 +1,14 @@
+/rss/channel/item/description/header/wf
+
+
+
+/rss/channel/item/description/body/location/city
+
+/rss/channel/item/description/body/location[idx]/data
+
+
+String.format("/rss/channel/item/description/body/location[%s]/data",idx);
+
+크로스 브라우징,,,
+IE 는 0부터
+나머지는 1부터
